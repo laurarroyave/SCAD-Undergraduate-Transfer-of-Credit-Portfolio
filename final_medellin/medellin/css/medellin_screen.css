@@ -1,0 +1,412 @@
+
+		
+		article, section, aside, hgroup, nav, header, footer, figure, figcaption { 
+    display: block;
+		}
+
+		*{ 
+    		margin: 0px;
+    		padding: 0px;
+		 }
+
+
+	body {
+   			 font-family: arial, verdana, helvetica, sans-serif;
+   			 font-size: 18px;
+   			 text-align: justify;
+   			 background-color: #d1dbbd;
+   			 /*background-color: #dadcdd;*/
+   			 margin-left: 0px;
+    		 margin-top: 0px;
+		 }
+		 
+		 
+	img {
+    		border: none;
+		}
+		
+		
+	#wrapper {
+    			/*background-color: #99999b;*/
+    			width: 990px;
+    			margin-right: auto;
+    			margin-left: auto;
+    			/*border: #000 2px dotted;*/
+			 }
+			 
+			 
+	header {
+    			height: 80px;
+    			border-color: #ff0000;
+    			/*background-color: */
+    			/*border: #000 2px dotted;*/
+
+    			
+			}
+	
+	.image01 {
+				
+				width: 100%;
+				height: 86px;
+				/*margin-top: -48px;
+				margin-bottom: -6px; 
+				margin-left: -48px;
+				*/
+				display: block;
+				margin: 0px auto;
+				padding: 0;
+					
+			}
+			
+			
+		.image02 {
+				float:left;
+				margin: 5px 20px 5px 0px;
+				}
+		
+		
+		.image03 {
+				float:right;
+				margin: 5px 0px 5px 20px;
+					}
+					
+		.image04 {
+
+					margin: 0px auto;
+					box-shadow: 0 0 10px #777777;
+					}	
+			
+	h1 {
+			font-family: georgia, times, serif;
+			font-size: 36px;
+			letter-spacing: 0.1em;
+			color: #edff9f;
+			text-shadow: 2px 2px 7px #111;
+			/* border: #000 1px dotted; */
+			text-align: center;
+		}
+	
+	
+	h2 {
+			font-family: georgia, times, serif;
+			font-size: 20px;
+			letter-spacing: 0.07em;
+			/*border-bottom: #000 2px dotted;*/
+			display: inline;
+	
+		}
+		
+
+	h3 {
+			font-family: georgia, times, serif;
+			letter-spacing: 0.07em;
+			text-indent: 10px;
+			/*border-bottom: #000 2px dotted;*/
+	
+		}
+		
+	h4 {
+			text-indent: 20px;
+		}
+		
+	.restaurant{
+			font-size: 18px;
+			color: black;
+			text-indent: 10px;
+			text-align: left;
+	
+			}	
+	
+	
+			
+	#nav {
+			/*background-color: red;*/
+			height: 25px;
+			border-bottom: #000 2px dotted;
+			padding: 05px;
+			text-align: center;
+			
+		  }	
+		  
+	#nav ul li {
+	
+			color: #236c6f;
+			list-style-type: none;
+			display: inline;
+			
+			
+			
+		
+			}
+			
+	#nav li {
+	
+			margin-right: 24px;
+	}			  	
+							
+	
+	
+	.linkstyle01:hover {
+							/*color: red;*/ 
+							text-decoration: none;
+							
+						}
+						
+						
+	/*.linkstyle01:link {
+	
+							color: #b7dd79
+							text-decoration: none;*/
+							
+	.linkstyle01:link {
+							color: #236c6f;
+							
+						}
+						
+						
+	.linkstyle01:visited {
+							color: #236c6f;
+							
+						}
+						
+
+	.linkstyle02:link {
+							color: #236c6f;
+							
+						}
+						
+						
+	.linkstyle02:visited {
+							color: #236c6f;
+							
+						}	
+						
+	.linkstyle02:hover {
+							/*color: red;*/ 
+							text-decoration: none;
+							
+						}
+						
+								
+	.linkstyle03:link {
+							color: #236c6f;
+							
+						}
+						
+						
+	.linkstyle03:visited {
+							color: #236c6f;
+							
+						}	
+						
+	.linkstyle03:hover {
+							/*color: red;*/ 
+							text-decoration: none;
+							
+						}
+						
+	.previous	{
+					background-color: #dadcdd;
+					border: 1px solid black;
+					color: black;
+					padding: 5px;
+					text-align: center;
+					text-decoration: none;
+					display: inline-block;
+					font-size: 16px;
+					border-radius: 4px;
+	
+	
+					}
+					
+					
+		.next	{
+					background-color: #dadcdd;
+					border: 1px solid black;
+					color: black;
+					padding: 5px;
+					text-align: center;
+					text-decoration: none;
+					display: inline-block;
+					font-size: 16px;
+					border-radius: 4px;
+					float: right;
+	
+	
+					}
+						
+	.fstyle03 {
+				font-size: 13px;
+				text-indent: 15px;
+				}						
+						
+						
+						
+	.one {
+			box-shadow: 0 0 10px #777777;
+			float:left;
+			margin: 5px 20px 5px 0px;
+			
+			}
+			
+	.two {
+			box-shadow: 0 0 10px #777777;
+			margin: 10px 5px 5px 20px;
+			
+			}						
+						
+						
+						
+	
+	aside {
+    			width: 250px;
+    			float: left;
+    			border-right: #000 1px dashed;
+    			padding-top: 15px;
+    			padding-right: 10px;
+    			text-align: left;
+    			color: #236c6f;
+    			
+			}
+			
+	/*#aside ul{
+	
+				list-style-type: circle;
+				
+				}*/ 
+			
+			
+	#content {
+   				width: 700px;
+    			float: right;
+				/*border: #000 2px dotted;*/
+				padding-top: 15px;
+			}
+			
+	
+	.pstyle01 {
+				padding-top: 5px;
+				padding-right: 5px;
+				padding-bottom: 5px;
+				padding-left: 5px;
+			   }
+			   
+			   
+	.pstyle02{
+				padding-top: 5px;
+				padding-right: 5px;
+				padding-bottom: 5px;
+				padding-left: 5px;
+				color: #236c6f;
+				/*text-indent: 5px;*/
+	
+			}
+			
+			
+	.pstyle03 {
+				padding-top: 5px;
+				padding-right: 5px;
+				padding-bottom: 5px;
+				padding-left: 5px;
+				font-size: 16px;
+			   }	
+	
+	.ulstyle01 {
+				list-style-type: circle;
+				list-style-position: inside;
+	
+				}
+				
+	.olstyle01	{
+				list-style-type: decimal;
+				list-style-position: inside;
+				text-indent: 15px;
+	
+				}
+				
+		table {
+				margin: auto;
+				border-collapse: collapse;
+			
+				}
+			
+			
+		th, td {
+				border: 1px black solid;
+				padding: 12px;
+				text-align: center;
+				font-weight: 200;
+		
+				}	
+				
+		caption {
+				font-size: x-large;
+				padding: 12px;
+				text-align: center;
+				font-weight: bold;
+				}
+				
+		.tstyle01 {
+				font-weight: bold;
+					}
+					
+		tr:nth-child(odd) {
+					background-color: #bcc0c5
+					}
+					
+		tr:nth-child(even) {
+					background-color: #dadcdd
+					}				
+				
+		
+	
+	fieldset { 
+				border: #edff9f 1px solid 
+			}
+
+		label{
+				text-indent: 5px;
+			}
+
+		label {
+  				float:left;
+ 				width:25%;
+  				margin-right:0.5em;
+  				padding-left:50px;
+  				text-align:left;
+  				font-size: 16px;
+ 		 	}
+ 		 	
+  
+  		form {
+  		  		float:left;
+ 				width:25%;
+  				margin-right:0.5em;
+  				padding-bottom: 50px;
+  				padding-left:50px;
+  				text-align:left;
+  				font-size: 16px;
+  
+  			}
+  			
+  		input {
+  				float:left;
+  				text-align: left;
+  			}		
+				
+				
+			
+	footer {
+    			height: 50px;
+    			clear: both;
+    			/*border: #000 2px dotted;*/
+    			padding-top: 20px;
+				padding-right: 5px;
+				padding-bottom: 2px;
+				padding-left: 5px;
+				font-size: 13px;
+				/*color: #91aa9d;*/
+			}
+
+		
+		
